@@ -13,7 +13,7 @@ import Preloader from './Preloader';
 import MagicCursor from './MagicCursor';
 import BackToTop from './BacktoTop';
 import MobileMenu from './MobileMenu';
-import Navbar from './Navbar';
+
 
 const HomePage = () => (
   <div className="ep-magic-cursor">

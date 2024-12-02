@@ -1,5 +1,5 @@
 import React from 'react';
-import Breadcrumbs from './Breadcrumbs';
+import { Breadcrumbs } from '../BreadCrumbsMain';
 import BlogList from './BlogList';
 import Sidebar from './Sidebar';
 import Pagination from './Pagination';
@@ -7,7 +7,8 @@ import Pagination from './Pagination';
 const BlogPage = () => {
   return (
     <main>
-      <Breadcrumbs />
+  <Breadcrumbs title="Blogs" activePath="/blog" />
+
  <section className="ep-blog-page section-gap position-relative">
  <div className="container ep-container">
  <div className="row">

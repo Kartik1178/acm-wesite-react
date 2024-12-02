@@ -22,7 +22,9 @@
 @import "/assets/section-css/error.css";
 @import "/assets/section-css/mobile-menu.css";
 @import "/assets/section-css/footer.css";
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .event-mode {
   color: white;
   position: absolute;
@@ -90,4 +92,7 @@
   margin-bottom: 20px !important;
   border-radius: 20px !important;
   height: 58px;
+}
+a{
+  text-decoration: none !important;
 }

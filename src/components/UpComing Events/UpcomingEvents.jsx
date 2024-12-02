@@ -1,14 +1,15 @@
 import React from 'react';
-import Breadcrumbs from './Breadcrumbs';
+import { Breadcrumbs } from '../BreadCrumbsMain';
 import EventList from './EventList';
 
-const Events = () => {
+const UpcomingEvents = () => {
     return (
         <main>
-            <Breadcrumbs />
+            <Breadcrumbs title="Upcoming Events" activePath="/upcoming-events" />
+
             <EventList />
         </main>
     );
 };
 
-export default Events;
+export default UpcomingEvents;

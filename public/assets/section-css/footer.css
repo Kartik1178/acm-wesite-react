@@ -3,9 +3,11 @@
 ==============================================================================================*/
 
 .ep-footer {
+
   background: var(--ep-secondary-color);
   z-index: 2;
   overflow: hidden;
+
 }
 
 .ep-footer__widget {

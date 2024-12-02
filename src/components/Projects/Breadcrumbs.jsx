@@ -1,7 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Breadcrumbs = () => (
-  <div className="ep-breadcrumbs breadcrumbs-bg background-image" style={{ backgroundImage: "url('assets/images/breadcrumbs-bg.png')" }}>
+  <div
+    className="ep-breadcrumbs breadcrumbs-bg background-image"
+    style={{ backgroundImage: "url('assets/images/breadcrumbs-bg.png')" }}
+  >
     <div className="container">
       <div className="row justify-content-center">
         <div className="col-lg-6 col-md-6 col-12">
@@ -9,13 +13,13 @@ const Breadcrumbs = () => (
             <h3 className="ep-breadcrumbs__title">Projects</h3>
             <ul className="ep-breadcrumbs__menu">
               <li>
-                <a href="index.html">Home</a>
+                <Link to="/home">Home</Link>
               </li>
               <li>
                 <i className="fi-bs-angle-right"></i>
               </li>
               <li className="active">
-                <a href="projects.html">Projects</a>
+                <Link to="/projects">Projects</Link>
               </li>
             </ul>
           </div>

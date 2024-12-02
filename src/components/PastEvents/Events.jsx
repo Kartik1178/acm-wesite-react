@@ -1,11 +1,12 @@
 import React from 'react';
-import Breadcrumbs from './Breadcrumbs';
+import { Breadcrumbs } from '../BreadCrumbsMain';
 import EventList from './EventList';
 
 const Events = () => {
     return (
         <main>
-            <Breadcrumbs />
+           <Breadcrumbs title="Past Events" activePath="/past-events" />
+
             <EventList />
         </main>
     );

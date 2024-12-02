@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const BlogCard = ({ imgSrc, date, title, comments, author }) => (
   <div className="ep-blog__card ep-blog__card--style2">
-    <a href="blog-details.html" className="ep-blog__img">
+    <Link to="/blog-details" className="ep-blog__img">
       <img src={imgSrc} alt="blog-img" />
-    </a>
+    </Link>
     <div className="ep-blog__info">
       <div className="ep-blog__date">{date}</div>
       <div className="ep-blog__content">
@@ -14,11 +15,11 @@ const BlogCard = ({ imgSrc, date, title, comments, author }) => (
             <li><a href="#"><i className="fi-rr-user"></i>By {author}</a></li>
           </ul>
         </div>
-        <a href="blog-details.html" className="ep-blog__title">
+        <Link to="/blog-details" className="ep-blog__title">
           <h5 className="m-0">{title}</h5>
-        </a>
+        </Link>
         <div className="ep-blog__btn">
-          <a href="blog-details.html">Read More <i className="fi fi-rs-arrow-small-right"></i></a>
+        <Link to="/blog-details">Read More <i className="fi fi-rs-arrow-small-right"></i></Link>
         </div>
       </div>
     </div>

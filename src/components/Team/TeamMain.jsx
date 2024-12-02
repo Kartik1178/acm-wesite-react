@@ -1,11 +1,11 @@
 import React from 'react'
-import Breadcrumbs from './Breadcrumbs'
-import TeamSection from './TeamSection'
 
+import TeamSection from './TeamSection'
+import { Breadcrumbs } from '../BreadCrumbsMain'
 export const TeamMain = () => {
   return (
   <>
-  <Breadcrumbs/>
+ <Breadcrumbs title="Teams" activePath="/team" />
   <TeamSection/>
   
   </>

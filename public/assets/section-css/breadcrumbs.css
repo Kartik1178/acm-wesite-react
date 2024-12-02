@@ -2,9 +2,15 @@
 	Start Breadcrumbs Area
 ==============================================================================================*/
 
+
 .ep-breadcrumbs {
+  position: relative;
   padding: 236px 0px 120px;
+ 
 }
+
+
+
 
 .ep-breadcrumbs__content {
   text-align: center;

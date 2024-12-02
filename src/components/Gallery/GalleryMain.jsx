@@ -1,11 +1,12 @@
 import React from 'react'
-import Breadcrumbs from './Breadcrumbs'
+import { Breadcrumbs } from '../BreadCrumbsMain'
 import EventCategory from './EventCateogry'
 import Gallery from './Gallery'
 
 export const GalleryMain = () => {
   return (<>
-    <Breadcrumbs/>
+  <Breadcrumbs title="Gallery" activePath="/gallery" />
+
     <EventCategory/>
     <Gallery/>
     </>

@@ -292,7 +292,7 @@
   /*==============================================================================
     Custom Cursor JS
   ================================================================================*/
-  document.addEventListener("DOMContentLoaded", function () {
+ /*{ document.addEventListener("DOMContentLoaded", function () {
     var cursor = document.querySelector(".cursor");
     var cursor2 = document.querySelector(".cursor2");
     document.addEventListener("mousemove", function (e) {
@@ -316,7 +316,7 @@
       });
     });
   });
-
+}*\
   /*==============================================================================
     Preloader JS
   ================================================================================*/
