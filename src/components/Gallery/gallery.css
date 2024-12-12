@@ -1,0 +1,39 @@
+.gallery-position{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  -ms-overflow-style: none; 
+  scroll-behavior: smooth;
+  position: relative;
+  overflow-y: visible;
+}
+.gallery-container{
+
+    border-radius:2px;
+    margin: 5px;
+  
+   
+}
+
+   
+
+.ep-container{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 0px;
+    margin-right: 0px;
+   position: relative;
+} 
+.pointer{
+ position: relative;
+ top:10%;
+    margin:5px;
+    font-size: 100px;
+    color: darkgrey;
+    transform: translateY(-15%);
+}
+.pointer:hover{
+    color:#ff723a;
+}
