@@ -1,39 +1,71 @@
-.gallery-position{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    scrollbar-width: none;
-  -ms-overflow-style: none; 
-  scroll-behavior: smooth;
-  position: relative;
-  overflow-y: visible;
-}
-.gallery-container{
-
-    border-radius:2px;
-    margin: 5px;
+.gallery-container {
+    flex: 0 0 auto; /* Prevent images from wrapping */
+    margin: 8px; /* Default spacing for all screens */
+    overflow: visible; /* Allow images to overflow the container */
+    border-radius: 8px; /* Optional: rounded corners */
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect transition */
+    width: 250px; /* Default container width for small screens */
+    max-height: 200px; /* Default container height for small screens */
+  }
   
-   
+  .gallery-container img {
+    width: 100%; /* Make the image fit the container width */
+    height: 100%; /* Make the image fit the container height */
+    object-fit: cover; /* Ensure proper aspect ratio within the container */
+    transition: transform 0.3s ease-in-out; /* Smooth scaling transition */
+border-radius: 4px;  
 }
-
-   
-
-.ep-container{
-    margin-top: 70px;
-    margin-bottom: 70px;
-    margin-left: 0px;
-    margin-right: 0px;
-   position: relative;
-} 
-.pointer{
- position: relative;
- top:10%;
-    margin:5px;
-    font-size: 100px;
-    color: darkgrey;
-    transform: translateY(-15%);
-}
-.pointer:hover{
-    color:#ff723a;
-}
+  
+  .gallery-position {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure all images remain in a single row */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    gap: 10px; /* Default gap between images for small screens */
+    scrollbar-width: none; /* Hide scrollbar */
+    -ms-overflow-style: none; /* IE scrollbar style */
+    align-items: center;
+  }
+  
+  .gallery-position::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit browsers */
+  }
+  
+  /* Media query for medium screens */
+  @media (min-width: 576px) {
+    .gallery-container {
+      width: 200px; /* Adjust container width for medium screens */
+      max-height: 200px; /* Adjust container height for medium screens */
+      margin: 4px; /* Adjust margin for medium screens */
+    }
+    .gallery-position {
+      gap: 10px; /* Adjust gap for medium screens */
+    }
+  }
+  
+  /* Media query for large screens */
+  @media (min-width: 992px) {
+    .gallery-container {
+      width: 350px; /* Larger container width for large screens */
+      max-height: 300px; /* Larger container height for large screens */
+      margin: 8px; /* Adjust margin for large screens */
+    }
+    .gallery-position {
+      gap: 10px; /* Reduce gap between images for large screens */
+    }
+  }
+  
+  /* Hover effect to increase container and image size */
+  .gallery-container:hover {
+    transform: scale(1.1); /* Enlarge the container on hover */
+    z-index: 10; /* Ensure the hovered container is above others */
+  }
+  
+  .gallery-container:hover img {
+    transform: scale(1.1); /* Enlarge the image on hover */
+  }
+  
+  .pointer {
+    font-size: 50px; /* Adjust navigation arrow size */
+    margin: 25px;
+  }
+  

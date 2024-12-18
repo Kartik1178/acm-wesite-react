@@ -29,9 +29,9 @@ const HomePage = () => (
         <HeroSection />
       
         <FunfactAndFaqSection/>
-  <TestimonialSection/> 
+  {/*<TestimonialSection/>*/} 
   <UpcomingEvents/> 
-        <Footer/>
+      
       </main>
     </div>
   </div>

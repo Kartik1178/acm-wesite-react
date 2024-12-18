@@ -24,8 +24,7 @@ const BlogDetails = () => {
           
           </div>
           <div class="ep-event__widget">
-            <h5 class="ep-event__widget-title">
-              Written By:{blog.author}</h5>
+            
           
            
           </div>

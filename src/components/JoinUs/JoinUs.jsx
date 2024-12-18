@@ -12,7 +12,7 @@ export const JoinUs = () => {
     <BenefitList/>
     <Category/>
     <Contact/>
-    <Team/>
+   
     </>
   )
 }

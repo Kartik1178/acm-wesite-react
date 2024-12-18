@@ -16,9 +16,9 @@ const BlogPage = () => {
 <BlogList />
  <Pagination />
   </div>
-<div className="col-lg-6 col-xl-4 col-md-8 col-12">
+{/* <div className="col-lg-6 col-xl-4 col-md-8 col-12">
   <Sidebar />
-</div>
+</div>*/ }
  </div>
  </div>
       </section>

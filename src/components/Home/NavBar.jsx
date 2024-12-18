@@ -51,7 +51,7 @@ const Navbar = () => {
                   <Link to="/team">Teams</Link>
                 </li>
                 <li>
-                  <Link to="/contact">Contact Us</Link>
+                  <Link to="#">Contact Us</Link>
                 </li>
               </ul>
             </nav>

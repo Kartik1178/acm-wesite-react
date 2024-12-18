@@ -48,7 +48,7 @@ return () => carousel.removeEventListener("scroll", handleScroll);
 },[]);
  
   return (
-    <section className="ep-event__details position-relative pt-3">
+    <section className="ep-event__details position-relative mb-4 pt-3">
 
       { events.map((event,index)=>{
         return(
@@ -58,8 +58,8 @@ return () => carousel.removeEventListener("scroll", handleScroll);
       <div className="pointer" onClick={()=>{scrollingLeft(index)}}>&lsaquo;</div>
         <div className="gallery-position" ref={(el)=>(carouselRef.current[index]=el)}>
          
-   {['1', '4', '1', '4', '1', '3', '2', '1', '4'].map((img, imgno) => (
- <div className="col-sm-3 col-lg-2" key={imgno}>
+   {['1', '2', '3', '4', '5', '6', '7', '1'].map((img, imgno) => (
+ <div className="col-sm-6 col-lg-4" key={imgno}>
 <div className="gallery-container ">
 
  <img src={`assets/images/event/event-${index+1}/${img}.png`} className="img-fluidity " alt="gallery" />

@@ -3,7 +3,7 @@ import React from 'react';
 const UpcomingEvents = () => {
   return (
     <>
-      <div className="ep-video">
+     {/* <div className="ep-video">
         <div className="ep-container container">
           <div
             className="ep-video__bg background-image ep-hobble position-relative"
@@ -19,7 +19,7 @@ const UpcomingEvents = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
       <section className="ep-blog section-gap position-relative">
         <div className="ep-blog__shape-1 rotate-ani">
           <img
@@ -51,32 +51,10 @@ const UpcomingEvents = () => {
                 delay=".3s"
                 eventMode="Online"
                 imgSrc="assets/images/blog/blog-1/1.png"
-                date="25 Dec"
-                location="Mirpur Bangladesh"
-                title="Education foundation"
-                description="Education is the key to stude Unlock your horizons education"
-              />
-            </div>
-            <div className="col-lg-6 col-xl-4 col-md-6 col-12">
-              <EventCard
-                delay=".5s"
-                eventMode="Offline"
-                imgSrc="assets/images/blog/blog-1/2.png"
-                date="25 Dec"
-                location="Mirpur Bangladesh"
-                title="Introduction to Psychology"
-                description="Education is the key to stude Unlock your horizons education"
-              />
-            </div>
-            <div className="col-lg-6 col-xl-4 col-md-6 col-12">
-              <EventCard
-                delay=".7s"
-                eventMode="Online"
-                imgSrc="assets/images/blog/blog-1/3.png"
-                date="25 Dec"
-                location="Mirpur Bangladesh"
-                title="Principles of Economics"
-                description="Education is the key to stude Unlock your horizons education"
+                date="12 Nov"
+                location="SRMIST,KTR"
+                title="CogniHack1.0"
+                description="CogniHack1.0 is an ideathon event conducted by ACM SIGAI"
               />
             </div>
           </div>
@@ -94,7 +72,7 @@ const EventCard = ({ delay, eventMode, imgSrc, date, location, title, descriptio
       data-wow-duration="1s"
       style={{ position: "relative" }}
     >
-      <span className="event-mode ep1-bg">{eventMode}</span>
+      <span className="event-mode ep1-bg z">{eventMode}</span>
       <a href="event-details.html" className="ep-blog__img">
         <img src={imgSrc} alt="blog-img" />
       </a>

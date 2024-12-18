@@ -1,109 +1,121 @@
-import React from 'react'
-
+import React from "react";
+import { Link } from "react-router-dom";
+import './footer.css';
 const Footer = () => {
   return (
-<footer class="ep-footer position-relative">
-        <div class="ep-container container">
-          <div class="ep-footer__top">
-            <div class="row">
-              <div class="col-lg-3 col-md-4 col-12">
-                <div class="ep-footer__widget footer-about">
-                  <div class="ep-footer__logo">
-                    <a href="index.html">
-                      <img src="assets/images/brand/acm_logo.png" alt="footer-logo" />
-                    </a>
-                  </div>
-                  <p class="ep-footer__text">
-                    It is a long established fact that a reader will be
-                    distracted
-                  </p>
-                  <div class="ep-footer__contact">
-                    <div class="ep-footer__contact-single">
-                      <div class="ep-footer__contact-icon">
-                        <i class="fi fi-rs-marker"></i>
-                      </div>
-                      <div class="ep-footer__contact-info">
-                        <p>Address</p>
-                        <span>66 Broklyant, New York India</span>
-                      </div>
+    <footer id="custom-footer" className="custom-footer position-relative">
+      <div className="container">
+        <div className="custom-footer__top">
+          <div className=" row flex-lg-row align-items-center justify-content-around">
+            <div className="col-lg-3 col-md-4 col-12">
+              <div className="custom-footer__widget footer-about">
+                <div className="custom-footer__logo">
+                  <Link to="/home">
+                    <img
+                      src="assets/images/brand/acm_logo.png"
+                      alt="footer-logo"
+                      className="custom-footer__logo-img"
+                    />
+                  </Link>
+                </div>
+                <p className="custom-footer__text">Want to find us? We are here</p>
+                <div className="custom-footer__contact">
+                  <div className="custom-footer__contact-item">
+                    <div className="custom-footer__contact-icon">
+                      <i className="fi fi-rs-marker"></i>
                     </div>
-                    <div class="ep-footer__contact-single">
-                      <div class="ep-footer__contact-icon">
-                        <i class="fi fi-rr-phone-call"></i>
-                      </div>
-                      <div class="ep-footer__contact-info">
-                        <p>Phone Number</p>
-                        <a href="tel:012 345 678 9101">012 345 678 9101</a>
-                      </div>
+                    <div className="footer-contact">
+                    <div className="custom-footer__contact-info">
+                      <p>Address</p>
+                      <span>
+                        SRM Nagar, Kattankulathur - 603 203
+                        <br />
+                        Chengalpattu District, Tamil Nadu.
+                      </span>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-4 col-12">
-                <div class="ep-footer__widget footer-links">
-                  <h4 class="ep-footer__widget-title">Quick Links</h4>
-                  <ul class="ep-footer__links-list">
-                    <li>
-                      <a href="upcoming-events.html">Upcoming Events</a>
-                    </li>
-                    <li>
-                      <a href="blog.html">Blogs</a>
-                    </li>
-                    <li>
-                      <a href="gallery.html">Gallery</a>
-                    </li>
-                    <li>
-                      <a href="join-us.html">About Us</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-md-4 col-12">
-                <div class="ep-footer__widget footer-newsletter">
-                  <h4 class="ep-footer__widget-title">Newsletter</h4>
-                  <form action="#" method="post" class="ep-footer__newsletter">
-                    <input type="email" name="email" placeholder="Your e-mail" required />
-                    <button type="submit">
-                      <i class="fi fi-ss-paper-plane"></i>
-                    </button>
-                  </form>
-                  <div class="ep-footer__social">
-                    <h5 class="ep-footer__social-title">Follow Us</h5>
-                    <ul>
-                      <li>
-                        <a href="#">
-                          <i class="icofont-facebook"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="icofont-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="icofont-linkedin"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="icofont-pinterest"></i>
-                        </a>
-                      </li>
-                    </ul>
+                  <div className="custom-footer__contact-item">
+                    <div className="custom-footer__contact-icon">
+                      <i className="fi fi-rr-phone-call"></i>
+                    </div>
+                    <div className="custom-footer__contact-info">
+                      <p>Phone Number</p>
+                      <a href="tel:0123456789">#######</a>
+                    </div>
+                  </div>
                   </div>
                 </div>
               </div>
             </div>
+            <div className="col-md-4 col-12">
+              <div className="custom-footer__widget footer-newsletter">
+                <div className="custom-footer__map">
+                  <iframe
+                    width="100%"
+                    height="400"
+                    frameBorder="0"
+                    scrolling="no"
+                    marginHeight="0"
+                    marginWidth="0"
+                    src="https://maps.google.com/maps?width=100%25&height=400&hl=en&q=srmist%20%20kattankulathur%20potheri%20kanchipuram%20tamilnadu+(srm)&t=&z=14&ie=UTF8&iwloc=B&output=embed"
+                    title="Google Map Location"
+                  >
+                    <a href="https://www.gps.ie/" target="_blank" rel="noopener noreferrer">gps vehicle tracker</a>
+                  </iframe>
+                </div>
+
+                <div className="custom-footer__social">
+                  <h5 className="custom-footer__social-title">Follow Us</h5>
+                  <ul className="custom-footer__social-links">
+                    <li>
+                      <a href="#">
+                        <i className="icofont-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://x.com/srmsigai" target="_blank" rel="noopener noreferrer">
+                        <i className="icofont-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/company/srmist-ktr-acm-sigai/">
+                        <i className="icofont-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/srm-ktr-acm-sigai">
+                        <i className="icofont-github"></i>
+                      </a>
+                    </li>
+                   
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-12">
+              <div className="custom-footer__widget footer-quick-links">
+                <h5 className="custom-footer__widget-title">Quick Links</h5>
+                <ul className="custom-footer__links">
+                  <li><Link to="/blogs">Blogs</Link></li>
+                  <li><Link to="/projects">Projects</Link></li>
+                  <li><Link to="/events">Events</Link></li>
+                  <li><Link to="/gallery">Gallery</Link></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="ep-footer__pattern">
-          <img src="assets/images/footer/footer-pattern.png" alt="footer-pattern" />
-        </div>
-      </footer>
-    
-  )
-}
+        <a href="https://www.linkedin.com/in/kartikeya-pusapati-bb151430b/">
+        <p className="custom-footer__copy author">Created By Kartikeya Pusapati</p>
+        </a>
+        <div className="custom-footer__bottom">
 
-export default Footer
+          <p className="custom-footer__copy">© {new Date().getFullYear()} ACM SIGAI. All Rights Reserved.</p>
+
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
