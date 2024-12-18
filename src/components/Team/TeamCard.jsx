@@ -1,20 +1,30 @@
 import React from 'react';
 
-const TeamCard = ({ imgSrc, name, position, delay }) => {
+const TeamCard = ({ imgSrc, name, position, delay, link }) => {
   return (
     <div
       className="col-lg-6 col-xl-4 col-md-6 col-12"
       style={{ animationDelay: `${delay}s`, animationDuration: '1s' }}
     >
       <div className="ep-team__card ep-team__card--style3 wow fadeInUp">
-        <a href="team-details.html" className="ep-team__img">
-          <img src={imgSrc} alt="team-img" />
-        </a>
+        {link ? (
+          <a href={link} target="_blank" rel="noopener noreferrer" className="ep-team__img">
+            <img src={imgSrc} alt={`${name}-img`} />
+          </a>
+        ) : (
+          <div className="ep-team__img">
+            <img src={imgSrc} alt={`${name}-img`} />
+          </div>
+        )}
         <div className="ep-team__content">
           <div className="ep-team__author">
-            <a href="team-details.html">
+            {link ? (
+              <a href={link} target="_blank" rel="noopener noreferrer">
+                <h5>{name}</h5>
+              </a>
+            ) : (
               <h5>{name}</h5>
-            </a>
+            )}
             <p>{position}</p>
           </div>
           <div className="ep-team__social">
@@ -51,5 +61,6 @@ const TeamCard = ({ imgSrc, name, position, delay }) => {
 };
 
 export default TeamCard;
+
 
 

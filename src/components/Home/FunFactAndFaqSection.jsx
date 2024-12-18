@@ -15,8 +15,8 @@ const FunfactAndFaqSection = () => {
                   <img src="assets/images/funfact/funfact-1/1.svg" alt="funfact-icon" />
                 </div>
                 <div className="ep-funfact__info">
-                  <h4><span className="counter">14</span>k+</h4>
-                  <p>Student Enrolled</p>
+                  <h4><span className="counter">2</span></h4>
+                  <p>Events</p>
                 </div>
               </div>
             </div>
@@ -27,8 +27,8 @@ const FunfactAndFaqSection = () => {
                   <img src="assets/images/funfact/funfact-1/2.svg" alt="funfact-icon" />
                 </div>
                 <div className="ep-funfact__info">
-                  <h4><span className="counter">20</span>k+</h4>
-                  <p>Class Completed</p>
+                  <h4><span className="counter">1</span></h4>
+                  <p>Projects</p>
                 </div>
               </div>
             </div>
@@ -39,8 +39,8 @@ const FunfactAndFaqSection = () => {
                   <img src="assets/images/funfact/funfact-1/3.svg" alt="funfact-icon" />
                 </div>
                 <div className="ep-funfact__info">
-                  <h4><span className="counter">100</span>%</h4>
-                  <p>Happy Customers</p>
+                  <h4><span className="counter">2</span></h4>
+                  <p>Blogs</p>
                 </div>
               </div>
             </div>
@@ -51,8 +51,8 @@ const FunfactAndFaqSection = () => {
                   <img src="assets/images/funfact/funfact-1/4.svg" alt="funfact-icon" />
                 </div>
                 <div className="ep-funfact__info">
-                  <h4><span className="counter">900</span>+</h4>
-                  <p>Top Instructors</p>
+                  <h4><span className="counter">30</span></h4>
+                  <p>Members</p>
                 </div>
               </div>
             </div>

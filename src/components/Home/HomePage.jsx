@@ -27,10 +27,7 @@ const HomePage = () => (
       <main>
       
         <HeroSection />
-        <AboutSection />
-        <CategoriesSection/>
-       <ContactSection/>
-<TeamSection/>
+      
         <FunfactAndFaqSection/>
   <TestimonialSection/> 
   <UpcomingEvents/> 

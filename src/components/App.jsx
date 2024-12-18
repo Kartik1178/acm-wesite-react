@@ -39,6 +39,7 @@ function App() {
 <Route path="/join-us" element={<JoinUs/>}/>
 <Route path="/team" element={<TeamMain/>}/>
 <Route path="/project-details/:id" element={<ProjectDetails/>}/>
+<Route path="/blog-details/:id" element={<BlogDetailsMain/>}/>
       </Routes>
       <Footer/>
     </Router>

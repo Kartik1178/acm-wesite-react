@@ -5,29 +5,13 @@ const EventList = () => {
    
     const events = [
         {
-            mode: 'Offline',
+            mode: 'Online',
             image: 'assets/images/blog/blog-1/2.png',
-            date: { day: 25, month: 'Dec' },
-            location: 'Mirpur Bangladesh',
-            title: 'Introduction to Psychology',
-            description: 'Education is the key to stude Unlock your horizons education'
-        },
-        {
-            mode: 'Online',
-            image: 'assets/images/blog/blog-1/3.png',
-            date: { day: 25, month: 'Dec' },
-            location: 'Mirpur Bangladesh',
-            title: 'Principles of Economics',
-            description: 'Education is the key to stude Unlock your horizons education'
-        },
-        {
-            mode: 'Online',
-            image: 'assets/images/blog/blog-1/1.png',
-            date: { day: 25, month: 'Dec' },
-            location: 'Mirpur Bangladesh',
-            title: 'Education Foundation',
-            description: 'Education is the key to stude Unlock your horizons education'
-        },
+            date: { day: 12, month: 'Nov' },
+            location: 'SRMIST,KTR',
+            title: 'CogniHack1.0',
+            description: 'CogniHack1.0 is an ideathon event conducted by ACM SIGAI.'
+        }
        
     ];
 

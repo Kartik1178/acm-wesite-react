@@ -89,7 +89,7 @@ const Projects = () => (
     <div id="smooth-content">
       <main>
         <Breadcrumbs />
-        <CategoryList />
+     
         <section className="ep-blog section-gap position-relative pt-4">   <div className="ep-container container">
    <div className="row">
  {projects.map((project, index) => (

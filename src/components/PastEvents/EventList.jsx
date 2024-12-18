@@ -5,30 +5,21 @@ const EventList = () => {
    
     const events = [
         {
-            mode: 'Offline',
+            mode: 'Online',
             image: 'assets/images/blog/blog-1/2.png',
-            date: { day: 25, month: 'Dec' },
-            location: 'Mirpur Bangladesh',
-            title: 'Introduction to Psychology',
-            description: 'Education is the key to stude Unlock your horizons education'
+            date: { day: 9, month: 'Oct' },
+            location: 'Google Meet',
+            title: 'Placement Talk',
+            description: 'An insightful Placement talk co-hosted by ACM SIGAI'
         },
         {
-            mode: 'Online',
+            mode: 'Offline',
             image: 'assets/images/blog/blog-1/3.png',
-            date: { day: 25, month: 'Dec' },
-            location: 'Mirpur Bangladesh',
-            title: 'Principles of Economics',
-            description: 'Education is the key to stude Unlock your horizons education'
-        },
-        {
-            mode: 'Online',
-            image: 'assets/images/blog/blog-1/1.png',
-            date: { day: 25, month: 'Dec' },
-            location: 'Mirpur Bangladesh',
-            title: 'Education Foundation',
-            description: 'Education is the key to stude Unlock your horizons education'
-        },
-       
+            date: { day: 4, month: 'Oct' },
+            location: 'IMAC LAB, SRMIST, KTR',
+            title: 'Inauguration Event',
+            description: 'Inaguration of ACM SIGAI student chapter'
+        }
     ];
 
     return (

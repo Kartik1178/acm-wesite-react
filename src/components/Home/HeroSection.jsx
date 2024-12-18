@@ -56,7 +56,7 @@ const HeroSection = () => (
               </div>
             </div>
             <div className="ep-hero__shape updown-ani">
-              <img src="/assets/images/hero/home-1/shape.svg" alt="shape" width={100} height={100} />
+
             </div>
             <div className="ep-hero__widget-column">
               <div className="ep-hero__course">
