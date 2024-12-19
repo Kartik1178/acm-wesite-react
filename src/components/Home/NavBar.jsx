@@ -10,10 +10,10 @@ const Navbar = () => {
           <div className="navbar-inner">
             {/* Logo Section */}
             <div className="navbar-logos">
-              <Link to="/home">
+              <Link to="/">
                 <img src="/assets/images/brand/acm_logo.png" alt="ACM Logo" />
               </Link>
-              <Link to="/home">
+              <Link to="/">
                 <img src="/assets/images/brand/brand-1/srm-logo.png"  className="srm-logo" alt="SRM Logo" />
               </Link>
             </div>

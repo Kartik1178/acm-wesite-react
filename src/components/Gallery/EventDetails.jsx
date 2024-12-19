@@ -1,11 +1,11 @@
 export const events=[
 {
 "index":1,
-"eventName":"Placement Talks",
+"eventName":"Inaguration",
 },
 {
 "index":2,
-"eventName":"Inauguration"
+"eventName":"Placement Talks"
 
 }, 
 
