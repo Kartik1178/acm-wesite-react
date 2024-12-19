@@ -15,7 +15,9 @@ body, ul, li, a {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle Shadow */
     width: 100%;
   }
-  
+  .acm-logo{
+    scale:130%;
+  }
   /* Navbar */
   .navbar {
     padding: 10px 20px;

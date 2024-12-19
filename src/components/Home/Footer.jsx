@@ -73,6 +73,11 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
+                      <a href="https://www.instagram.com/srmsigai/">
+                        <i className="instagram"></i>
+                      </a>
+                    </li>
+                    <li>
                       <a href="https://x.com/srmsigai" target="_blank" rel="noopener noreferrer">
                         <i className="icofont-twitter"></i>
                       </a>
@@ -83,7 +88,7 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://github.com/srm-ktr-acm-sigai">
+                      <a href="https://github.com/SRMIST-KTR-ACM-SIGAI">
                         <i className="icofont-github"></i>
                       </a>
                     </li>

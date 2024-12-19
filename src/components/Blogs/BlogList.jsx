@@ -28,7 +28,7 @@ const BlogCard = ({ imgSrc, date, title,  author,link }) => (
 
 const BlogList = () => {
   return (
-    <div className="ep-blog__list">
+    <div className="ep-blog__list blog">
       {blogs.map((blog,index)=>(
       <BlogCard key={index} imgSrc={blog.coverImg} date={blog.date} title={blog.title} author={blog.author} link={blog.link}/>
       ))}</div>

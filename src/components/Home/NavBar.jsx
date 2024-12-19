@@ -3,6 +3,12 @@ import { Link } from "react-router-dom";
 import "./navbar.css";
 
 const Navbar = () => {
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: 'smooth', 
+    });
+  };
   return (
     <header className="navbar-container">
       <div className="navbar">
@@ -11,7 +17,7 @@ const Navbar = () => {
             {/* Logo Section */}
             <div className="navbar-logos">
               <Link to="/">
-                <img src="/assets/images/brand/acm_logo.png" alt="ACM Logo" />
+                <img src="/assets/images/brand/acm_logo.png" className="acm-logo" alt="ACM Logo" />
               </Link>
               <Link to="/">
                 <img src="/assets/images/brand/brand-1/srm-logo.png"  className="srm-logo" alt="SRM Logo" />
@@ -48,10 +54,10 @@ const Navbar = () => {
                   <Link to="/join-us">Join Us</Link>
                 </li>
                 <li>
-                  <Link to="/team">Teams</Link>
+                  <Link to="/team">Team</Link>
                 </li>
                 <li>
-                  <Link to="#">Contact Us</Link>
+                  <Link to="#" onClick={scrollToBottom}>Contact Us</Link>
                 </li>
               </ul>
             </nav>

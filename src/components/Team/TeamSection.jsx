@@ -4,11 +4,7 @@ import TeamCard from './TeamCard';
 const teamMembers = [
   { imgSrc: '/assets/images/Core team pictures/Dr. Uma.png', name: 'Dr. Uma M', position: 'Chair',link:'https://www.srmist.edu.in/faculty/dr-m-uma/' },
   { imgSrc: '/assets/images/Core team pictures/Dr. Beaulah.png', name: 'Dr Beaulah Jayavathana R', position: 'Vice Chair', link:'https://www.srmist.edu.in/faculty/dr-r-beaulah-jeyavathana/' },
-  { imgSrc: 'assets/images/team/team-1/2.webp', name: 'Dr.Manikandan', position: 'Treasurer ',link:'https://www.srmist.edu.in/faculty/dr-manikandan-m/' },
-  { imgSrc: 'assets/images/team/team-1/2.webp', name: ' Dr.Revathy', position: 'General Secretary',link:'https://www.srmist.edu.in/faculty/dr-revathi-venkataraman/' },
-  { imgSrc: 'assets/images/team/team-1/2.webp', name: 'Dr.PV.Gopirajan', position: 'Web Master',link:'https://www.srmist.edu.in/faculty/dr-gopirajan-pv/' },
-  { imgSrc: 'assets/images/team/team-1/2.webp', name: 'Dr.Pitchaimanikam', position: 'Event Chair',link:'https://www.srmist.edu.in/faculty/dr-b-pitchai-manickam/' },
-  { imgSrc: '/assets/images/Core team pictures/Krithika.jpg', name: 'Krithika Ganesan', position: 'Chairman' },
+{ imgSrc: '/assets/images/Core team pictures/Krithika.jpg', name: 'Krithika Ganesan', position: 'Chairman' },
   { imgSrc: '/assets/images/Core team pictures/Divyaa-.jpg', name: 'Divyaa Sriram', position: 'Co-Chairman' },
   { imgSrc: '/assets/images/Core team pictures/Karthik.jpg', name: 'Karthik Ganesan', position: 'Treasurer' },
   { imgSrc: '/assets/images/Core team pictures/Tilak.jpg', name: 'K J Tilak Reddy', position: 'Technical - Coordinator' },
